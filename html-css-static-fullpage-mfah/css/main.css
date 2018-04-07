@@ -1,0 +1,159 @@
+
+body{
+  margin-top:0;
+	margin-left:5%;
+  margin-right:5%;
+  background-color:#DFDDDF;
+
+}
+header{
+	width: 100%;
+	background-color:#333;
+}
+hr{
+  color:#e5e5e5;
+}
+section{
+  background-color: #FFFFFF;
+}
+span{
+	display: flex;
+}
+
+.img-titulo{
+  padding-right:25%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+/*<-----------------------------------Contenedor------------------------------>*/
+.nav-colors{
+  background-color:#D4EDF7;
+  color: #899896;
+
+}
+.nav-1{
+  padding:5px;
+  background-color:#FCFBE3;
+}
+
+a{
+  text-decoration: none;
+}
+nav{
+  padding: 5%;
+}
+
+.continer{
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.continer-text{
+  width: 70%;
+  margin:auto;
+}
+.continer-two{
+
+  width: 25%;
+  margin: auto;
+}
+
+/*<-----------------------------------Contenedor de imagenes pequeñas------------------------------>*/
+.col-tex{
+  font-size:14px;
+  line-height:1px;
+
+
+}
+.img-text{
+  max-width:100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text{
+  width:65%;
+  margin: auto;
+}
+.img{
+  width:33%;
+  margin: auto;
+}
+
+
+
+/*----------------------------------------segunda seccion de imagenes------------------------------>*/
+
+
+.continer-two-section{
+  width: 70%;
+  margin: 0;
+
+}
+
+.flex-container {
+  display: flex;
+  color: black;
+  width: 100%;
+  padding: 3%;
+ 
+}
+.images-text{
+  width:15%;
+
+}
+.text-images{
+  width: 40%;
+  margin: 3%;
+}
+
+.text-1{
+  padding-top:30px;
+  margin:2%;
+
+}
+.continer-two{
+  width: 30%;
+}
+
+
+.continer-3{
+  width: 30%;
+  background-color: #3A539B;
+  color: #FFFFFF;
+  padding: 2%;
+  position: fixed;
+  left: 75%;
+  top: 400px;
+
+}
+
+.icon{
+  color: red;
+  padding: 5px;
+}
