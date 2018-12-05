@@ -70,11 +70,14 @@ nav{
   max-width: 95%;
   margin: 0 auto;
   display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: row;
   flex-wrap: wrap;
 
 }
 .continer-text{
-  width: 70%;
+  width: 65%;
   margin:auto;
 }
 .continer-two{
@@ -121,7 +124,7 @@ nav{
   color: black;
   width: 100%;
   padding: 3%;
- 
+
 }
 .images-text{
   width:15%;
@@ -156,4 +159,10 @@ nav{
 .icon{
   color: red;
   padding: 5px;
+}
+
+.footerFin{
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3%;
 }
